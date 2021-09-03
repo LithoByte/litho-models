@@ -1,0 +1,6 @@
+framework module LithoModels {
+  umbrella header "LithoModels-umbrella.h"
+
+  export *
+  module * { export * }
+}

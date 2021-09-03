@@ -1,0 +1,1286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D7F1F2F713F714CE06A0D85D68E6CE8 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F0AC0C03C88EBED2C90387F0AC8DDF5 /* Invitation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EE1E9B3304ACB53A00029DC275B063 /* Invitation.swift */; };
+		0F45AB2077D8E60AD5AA1E1A09BB1663 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42AAD8576165155190A189119EC42583 /* Foundation.framework */; };
+		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = A74F74783CAF2B4581BA4AC663F7FA0B /* UIApplication+StrictKeyWindow.m */; };
+		121439AB6B4061E1B6222256817548FA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B41EEE46701F21BF7032A8AE46ED1DC /* XCTest.framework */; };
+		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 959EE63DE8C5FF0A1AE8F6D6BCCC566E /* UIImage+Diff.m */; };
+		1EAE000669F047920EF6D2B4327BE75E /* Id.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372C895A759A8DC14707FA7DD642AC4E /* Id.swift */; };
+		2AFF054EABDA9C83866963F115653747 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42AAD8576165155190A189119EC42583 /* Foundation.framework */; };
+		2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A3C2D980B5B3D684DC5312FCC5A1CC0 /* UIImage+Compare.m */; };
+		2E4C0BD2363ABABB6470FBA5415985AA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEEE3D38C6B08767113733C832D8A218 /* QuartzCore.framework */; };
+		333DA89CE7C0CAB368A867F364E451BB /* Slippers-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 14FB52A356B95F172FFCB7458E3060CB /* Slippers-dummy.m */; };
+		33536E8166EF4D0370E9C9A00DB00649 /* LithoModels-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 11C9A964FB2A3D4E794F73033F185F20 /* LithoModels-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D334FA03E430A6399F303F0BDEB384F /* Pods-LithoModels_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 887B4BFC4A2DB638D457BC056319FD7B /* Pods-LithoModels_Tests-dummy.m */; };
+		3E67DA4A167AFFAF28B6E3A4E0A092B2 /* PasswordReset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F472C746111E35CC9069452C4C87AD /* PasswordReset.swift */; };
+		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C82E083C34DC0F9C83041EA41D1CAAA /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		40B5B9E9D13B0B3EB3CB146CADD0D181 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BABA3EB7E7EA73E54615F7859BE8891 /* Device.swift */; };
+		45D95CDB63D4AAA3CC1001AF7B164915 /* Pageable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C97BCADE7D1A742B75BCD5D8CB86CB6 /* Pageable.swift */; };
+		4986F29B8DE50A00E21FCE946C7045FD /* Refreshable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD0C3BA1133722906C6B68B3D74D0D2 /* Refreshable.swift */; };
+		51B0FDBC6321FE189A8B4A328F51FC88 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B816317F278DFF74B212902584F907 /* Contact.swift */; };
+		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A5437C192F18B02E6D12419A2C3A496C /* FBSnapshotTestCase-dummy.m */; };
+		7002813273EC1690F73D20E984FC4162 /* Pods-LithoModels_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1235A4E36103947F738B128DCE09458E /* Pods-LithoModels_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7863C53DABCEBBE3C47134968D45B02C /* Avatar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25295DAEAE5C0FAFBEABE21C3691F191 /* Avatar.swift */; };
+		83860E4F85D1836A9989A7A182681A90 /* LithoModels-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3108F7A71447E70C859444A4F7964343 /* LithoModels-dummy.m */; };
+		83F20753F0750A1680E117C8DCC06DD0 /* JsonProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA28B7F27410E7CD5769A4870F4A955E /* JsonProvider.swift */; };
+		869055881AAC57F76749CF6FE8DCA5E2 /* Array+Paging.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45F44E37726428AAC664376D6893720 /* Array+Paging.swift */; };
+		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B41FE57841E5DB7EE80DCA0E08FEDC /* FBSnapshotTestController.m */; };
+		8B309A30F23328F8FCD2F140BD388921 /* Slippers-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8954664E84626239590827713389B6EC /* Slippers-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E2FBC2CEEC8BA3AE74D6CF1B84D16F /* FBSnapshotTestCase.m */; };
+		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 639D4AE74A01729AB11707139B8D3667 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		928F53A7CA97998AA2F93A27800E4E1B /* Pods-LithoModels_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EFFEE786DC68C7CE5A0070FA4EA3E9D1 /* Pods-LithoModels_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350266C17BDB64003859043795463AD3 /* SwiftSupport.swift */; };
+		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D8BCAEDA837B9D76180905A793F698 /* UIImage+Snapshot.m */; };
+		B049751B6E1B90469200BE2A23AE59C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42AAD8576165155190A189119EC42583 /* Foundation.framework */; };
+		B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A346DED024D586EEA253B61FFE1BFAA /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		BD4953074A12E769ED4E6C94F5E73694 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68920FAACFB0EE1AE4C020EB2CACB947 /* UIKit.framework */; };
+		C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = D0185768856427BE279864D0E7AE36AD /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7D2E11FB0A42FF4E83924E8619A54C9 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A30355E2E3D2E0DC91FFA9E598EBAF /* User.swift */; };
+		CA63ADACAC6C2BF1E30108E6BEF68A09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42AAD8576165155190A189119EC42583 /* Foundation.framework */; };
+		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F8C3DFCB080FEFFD392CF5782A509D1 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		D2703C7426F73AEC278A46618AB855C6 /* Pods-LithoModels_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6071CA0808B09896799A2304730F2C7F /* Pods-LithoModels_Example-dummy.m */; };
+		D6A68368D0D38D807A2D37E724BA1426 /* Slippers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 943B0B00385CEA1531431DE6E3905E04 /* Slippers.framework */; };
+		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AFA6B3F2B2E8C08D6DCB5CC7FAB3CC /* FBSnapshotTestCasePlatform.m */; };
+		EECD507D48B4A0D7FCC109FEE20EF829 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42AAD8576165155190A189119EC42583 /* Foundation.framework */; };
+		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = A175ABDCA81F73F07316ABA018870DF1 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E194C96E560E4CD61F93AF0B5E8B69E /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0B676DFB4D7375D7F6F200D200432700 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7BE6B8CAECA6BD8A4FE578AAC96D07F;
+			remoteInfo = Slippers;
+		};
+		23FDB667EE97E1340743A1193C4D5579 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
+			remoteInfo = FBSnapshotTestCase;
+		};
+		56B6C0938CDA10A5B40D1CE8160F89A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7BE6B8CAECA6BD8A4FE578AAC96D07F;
+			remoteInfo = Slippers;
+		};
+		8831F2904E510290CE74EFE22F41E3A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6BDE1C40FB885CC565DF9417623C2BE;
+			remoteInfo = LithoModels;
+		};
+		C8FE8A94F41CA8BF86D357B77D7EBB40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBBB090BD70BCAD0ABE10F38EA1633F6;
+			remoteInfo = "Pods-LithoModels_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00EA6CFD6F340484A2635D022DC21205 /* Pods-LithoModels_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LithoModels_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		03A96D0F53C21F558E760A965BD14975 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
+		0B41EEE46701F21BF7032A8AE46ED1DC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		11C9A964FB2A3D4E794F73033F185F20 /* LithoModels-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LithoModels-umbrella.h"; sourceTree = "<group>"; };
+		1235A4E36103947F738B128DCE09458E /* Pods-LithoModels_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LithoModels_Tests-umbrella.h"; sourceTree = "<group>"; };
+		14FB52A356B95F172FFCB7458E3060CB /* Slippers-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Slippers-dummy.m"; sourceTree = "<group>"; };
+		19CAD8E97CEA45E92D31F3D8BDB10635 /* Slippers.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Slippers.modulemap; sourceTree = "<group>"; };
+		201A85F63C2D71D8050D98423FD7408D /* LithoModels.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LithoModels.modulemap; sourceTree = "<group>"; };
+		20B9E1BB44C1E385E50DCEAC3D4EA9FD /* Pods-LithoModels_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LithoModels_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		219D65A40CDBE7D85B1E0E8B36D9D0BD /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
+		22AFA6B3F2B2E8C08D6DCB5CC7FAB3CC /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		25295DAEAE5C0FAFBEABE21C3691F191 /* Avatar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Avatar.swift; path = LithoModels/Classes/Avatar.swift; sourceTree = "<group>"; };
+		2C82E083C34DC0F9C83041EA41D1CAAA /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
+		3108F7A71447E70C859444A4F7964343 /* LithoModels-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LithoModels-dummy.m"; sourceTree = "<group>"; };
+		3163F7458522386F0CADBCE0AE972F49 /* LithoModels-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LithoModels-Info.plist"; sourceTree = "<group>"; };
+		337520DF99036CE4B66D6B3FD58DC0E5 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		348AA277B4DDCC1F0987B90E15C5EE40 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		350266C17BDB64003859043795463AD3 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		372C895A759A8DC14707FA7DD642AC4E /* Id.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Id.swift; path = Slippers/Classes/Id.swift; sourceTree = "<group>"; };
+		42AAD8576165155190A189119EC42583 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		509A7B84B9725D168AEB17EEE224EF18 /* Pods-LithoModels_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LithoModels_Tests-Info.plist"; sourceTree = "<group>"; };
+		541A64971991D2B40BE649F5B27FAB5E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		55F472C746111E35CC9069452C4C87AD /* PasswordReset.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PasswordReset.swift; path = LithoModels/Classes/PasswordReset.swift; sourceTree = "<group>"; };
+		5A346DED024D586EEA253B61FFE1BFAA /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		5A8F788463B4D52707532B87C0B322E8 /* LithoModels.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LithoModels.debug.xcconfig; sourceTree = "<group>"; };
+		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DED5C390373A9F3DF28DB97301B0C9D /* Pods-LithoModels_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LithoModels_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		5E194C96E560E4CD61F93AF0B5E8B69E /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		6071CA0808B09896799A2304730F2C7F /* Pods-LithoModels_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LithoModels_Example-dummy.m"; sourceTree = "<group>"; };
+		619E9E286D7E1C2F3AD3304B632337C8 /* LithoModels.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LithoModels.framework; path = LithoModels.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		62239F86028CB1D1BDD82B5A68373D34 /* Pods-LithoModels_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LithoModels_Tests.modulemap"; sourceTree = "<group>"; };
+		639D4AE74A01729AB11707139B8D3667 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		63B41FE57841E5DB7EE80DCA0E08FEDC /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		65D2E4D2E0189B000F029F523DF2D9DF /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
+		68920FAACFB0EE1AE4C020EB2CACB947 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		6D7F1F2F713F714CE06A0D85D68E6CE8 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		7A21D1C26042CCC22697358A2B4BAD4D /* Pods-LithoModels_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LithoModels_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		7A3C2D980B5B3D684DC5312FCC5A1CC0 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		7EF1B7B33B93D09F429898D42966A86F /* LithoModels.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LithoModels.release.xcconfig; sourceTree = "<group>"; };
+		8290D0B47F6FED55B6A49E7734FD3B72 /* LithoModels.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LithoModels.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		82B816317F278DFF74B212902584F907 /* Contact.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Contact.swift; path = LithoModels/Classes/Contact.swift; sourceTree = "<group>"; };
+		887B4BFC4A2DB638D457BC056319FD7B /* Pods-LithoModels_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LithoModels_Tests-dummy.m"; sourceTree = "<group>"; };
+		8954664E84626239590827713389B6EC /* Slippers-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Slippers-umbrella.h"; sourceTree = "<group>"; };
+		8BABA3EB7E7EA73E54615F7859BE8891 /* Device.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Device.swift; path = LithoModels/Classes/Device.swift; sourceTree = "<group>"; };
+		8C97BCADE7D1A742B75BCD5D8CB86CB6 /* Pageable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Pageable.swift; path = Slippers/Classes/Pageable.swift; sourceTree = "<group>"; };
+		8F8C3DFCB080FEFFD392CF5782A509D1 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		943B0B00385CEA1531431DE6E3905E04 /* Slippers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Slippers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		959EE63DE8C5FF0A1AE8F6D6BCCC566E /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		9B3A59DA23633E3E165D2CBA2C2EEDDE /* Pods-LithoModels_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LithoModels_Example.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F205C9A1C3E7D65B76B849D95479AB7 /* Slippers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Slippers.release.xcconfig; sourceTree = "<group>"; };
+		A10BF540D22090B48A86659E37496C20 /* Pods-LithoModels_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LithoModels_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		A175ABDCA81F73F07316ABA018870DF1 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		A4D4F2D783094F9EF4F2580C4DC3EEA0 /* Pods-LithoModels_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LithoModels_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A5437C192F18B02E6D12419A2C3A496C /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		A74F74783CAF2B4581BA4AC663F7FA0B /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		B9C3C85C18A197EF76EA261D63B5357B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		BCA06A6101E21D21995DA17D7BE0ECEA /* Pods_LithoModels_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LithoModels_Example.framework; path = "Pods-LithoModels_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE8D6C6655650B37193698ACCC6670EF /* LithoModels-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LithoModels-prefix.pch"; sourceTree = "<group>"; };
+		C45F44E37726428AAC664376D6893720 /* Array+Paging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+Paging.swift"; path = "Slippers/Classes/Array+Paging.swift"; sourceTree = "<group>"; };
+		C4E2FBC2CEEC8BA3AE74D6CF1B84D16F /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		C990880BD637FA8C7382E41A5B769757 /* Pods_LithoModels_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LithoModels_Tests.framework; path = "Pods-LithoModels_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA28B7F27410E7CD5769A4870F4A955E /* JsonProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JsonProvider.swift; path = Slippers/Classes/JsonProvider.swift; sourceTree = "<group>"; };
+		CA53AE499F1DBB59431287A8445616E3 /* Slippers-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Slippers-prefix.pch"; sourceTree = "<group>"; };
+		D0185768856427BE279864D0E7AE36AD /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		D1FD947D5ABC757C12A999DCA0FBAFF1 /* Slippers.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Slippers.debug.xcconfig; sourceTree = "<group>"; };
+		D9A30355E2E3D2E0DC91FFA9E598EBAF /* User.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = User.swift; path = LithoModels/Classes/User.swift; sourceTree = "<group>"; };
+		DF8170AA445FD8EB4C17131F08C88191 /* Pods-LithoModels_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LithoModels_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EA50678774B7C34B59F8D01874265C03 /* Pods-LithoModels_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LithoModels_Example-frameworks.sh"; sourceTree = "<group>"; };
+		EBF3FA103C4C4BC804C5A7197E1BFA3A /* Slippers-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Slippers-Info.plist"; sourceTree = "<group>"; };
+		EE23F0E657919E67DE2E37D2CA779C52 /* Pods-LithoModels_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LithoModels_Example.release.xcconfig"; sourceTree = "<group>"; };
+		EE8C92E44F6137DDD0EEF21A9B109ED8 /* Pods-LithoModels_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LithoModels_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		EEEE3D38C6B08767113733C832D8A218 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		EFFEE786DC68C7CE5A0070FA4EA3E9D1 /* Pods-LithoModels_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LithoModels_Example-umbrella.h"; sourceTree = "<group>"; };
+		F3EE1E9B3304ACB53A00029DC275B063 /* Invitation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Invitation.swift; path = LithoModels/Classes/Invitation.swift; sourceTree = "<group>"; };
+		F7D8BCAEDA837B9D76180905A793F698 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		F9647E28EE593251CAA6999B3DF45A15 /* Pods-LithoModels_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LithoModels_Example-Info.plist"; sourceTree = "<group>"; };
+		FAD0C3BA1133722906C6B68B3D74D0D2 /* Refreshable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Refreshable.swift; path = Slippers/Classes/Refreshable.swift; sourceTree = "<group>"; };
+		FFF9A5004A0ACB34E97B9E729B3C8BC4 /* Slippers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Slippers.framework; path = Slippers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DAE4F9D9ECF03832318C8561C2F76B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B049751B6E1B90469200BE2A23AE59C0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		805EEE52600BD9871FD494596F18B8F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F45AB2077D8E60AD5AA1E1A09BB1663 /* Foundation.framework in Frameworks */,
+				D6A68368D0D38D807A2D37E724BA1426 /* Slippers.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C95F6EDC7933D69A6E6083D10124D07B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AFF054EABDA9C83866963F115653747 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E581515110D66F94F80A6937831489A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA63ADACAC6C2BF1E30108E6BEF68A09 /* Foundation.framework in Frameworks */,
+				2E4C0BD2363ABABB6470FBA5415985AA /* QuartzCore.framework in Frameworks */,
+				BD4953074A12E769ED4E6C94F5E73694 /* UIKit.framework in Frameworks */,
+				121439AB6B4061E1B6222256817548FA /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E85467F97321F71293C2B00106BC364B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EECD507D48B4A0D7FCC109FEE20EF829 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D02DD2B9671C4C9A0756AFE33E0588C /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				6D7F1F2F713F714CE06A0D85D68E6CE8 /* FBSnapshotTestCase.h */,
+				C4E2FBC2CEEC8BA3AE74D6CF1B84D16F /* FBSnapshotTestCase.m */,
+				D0185768856427BE279864D0E7AE36AD /* FBSnapshotTestCasePlatform.h */,
+				22AFA6B3F2B2E8C08D6DCB5CC7FAB3CC /* FBSnapshotTestCasePlatform.m */,
+				639D4AE74A01729AB11707139B8D3667 /* FBSnapshotTestController.h */,
+				63B41FE57841E5DB7EE80DCA0E08FEDC /* FBSnapshotTestController.m */,
+				2C82E083C34DC0F9C83041EA41D1CAAA /* UIApplication+StrictKeyWindow.h */,
+				A74F74783CAF2B4581BA4AC663F7FA0B /* UIApplication+StrictKeyWindow.m */,
+				A175ABDCA81F73F07316ABA018870DF1 /* UIImage+Compare.h */,
+				7A3C2D980B5B3D684DC5312FCC5A1CC0 /* UIImage+Compare.m */,
+				8F8C3DFCB080FEFFD392CF5782A509D1 /* UIImage+Diff.h */,
+				959EE63DE8C5FF0A1AE8F6D6BCCC566E /* UIImage+Diff.m */,
+				5A346DED024D586EEA253B61FFE1BFAA /* UIImage+Snapshot.h */,
+				F7D8BCAEDA837B9D76180905A793F698 /* UIImage+Snapshot.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		1EDCEFB2B1FE45C2E264A634069F818A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */,
+				619E9E286D7E1C2F3AD3304B632337C8 /* LithoModels.framework */,
+				BCA06A6101E21D21995DA17D7BE0ECEA /* Pods_LithoModels_Example.framework */,
+				C990880BD637FA8C7382E41A5B769757 /* Pods_LithoModels_Tests.framework */,
+				FFF9A5004A0ACB34E97B9E729B3C8BC4 /* Slippers.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36A4445956B4079CA4AB2C98A3E60610 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				892BC3B0331CE496E6762E50599FDEF9 /* LithoModels */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3FA7163CABE0D1C982F86A5193EB2BC1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				943B0B00385CEA1531431DE6E3905E04 /* Slippers.framework */,
+				F58B826D4B55209F33A4C655251DBBFD /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5BD3D3F4E63EF201B338BC9407DEADCC /* Slippers */ = {
+			isa = PBXGroup;
+			children = (
+				C45F44E37726428AAC664376D6893720 /* Array+Paging.swift */,
+				372C895A759A8DC14707FA7DD642AC4E /* Id.swift */,
+				CA28B7F27410E7CD5769A4870F4A955E /* JsonProvider.swift */,
+				8C97BCADE7D1A742B75BCD5D8CB86CB6 /* Pageable.swift */,
+				FAD0C3BA1133722906C6B68B3D74D0D2 /* Refreshable.swift */,
+				FCDBB9C0B3D7BFD0B522CED32011F45E /* Support Files */,
+			);
+			name = Slippers;
+			path = Slippers;
+			sourceTree = "<group>";
+		};
+		892BC3B0331CE496E6762E50599FDEF9 /* LithoModels */ = {
+			isa = PBXGroup;
+			children = (
+				25295DAEAE5C0FAFBEABE21C3691F191 /* Avatar.swift */,
+				82B816317F278DFF74B212902584F907 /* Contact.swift */,
+				8BABA3EB7E7EA73E54615F7859BE8891 /* Device.swift */,
+				F3EE1E9B3304ACB53A00029DC275B063 /* Invitation.swift */,
+				55F472C746111E35CC9069452C4C87AD /* PasswordReset.swift */,
+				D9A30355E2E3D2E0DC91FFA9E598EBAF /* User.swift */,
+				F877058CE88CE7F0791E9FE4EF2D80E2 /* Pod */,
+				8B65DF6388569F50C6AF9CA5DE06E558 /* Support Files */,
+			);
+			name = LithoModels;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		8B65DF6388569F50C6AF9CA5DE06E558 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				201A85F63C2D71D8050D98423FD7408D /* LithoModels.modulemap */,
+				3108F7A71447E70C859444A4F7964343 /* LithoModels-dummy.m */,
+				3163F7458522386F0CADBCE0AE972F49 /* LithoModels-Info.plist */,
+				BE8D6C6655650B37193698ACCC6670EF /* LithoModels-prefix.pch */,
+				11C9A964FB2A3D4E794F73033F185F20 /* LithoModels-umbrella.h */,
+				5A8F788463B4D52707532B87C0B322E8 /* LithoModels.debug.xcconfig */,
+				7EF1B7B33B93D09F429898D42966A86F /* LithoModels.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LithoModels";
+			sourceTree = "<group>";
+		};
+		8F595FE3A05169BB667674EF62F8DD0C /* Pods-LithoModels_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				62239F86028CB1D1BDD82B5A68373D34 /* Pods-LithoModels_Tests.modulemap */,
+				DF8170AA445FD8EB4C17131F08C88191 /* Pods-LithoModels_Tests-acknowledgements.markdown */,
+				00EA6CFD6F340484A2635D022DC21205 /* Pods-LithoModels_Tests-acknowledgements.plist */,
+				887B4BFC4A2DB638D457BC056319FD7B /* Pods-LithoModels_Tests-dummy.m */,
+				5DED5C390373A9F3DF28DB97301B0C9D /* Pods-LithoModels_Tests-frameworks.sh */,
+				509A7B84B9725D168AEB17EEE224EF18 /* Pods-LithoModels_Tests-Info.plist */,
+				1235A4E36103947F738B128DCE09458E /* Pods-LithoModels_Tests-umbrella.h */,
+				EE8C92E44F6137DDD0EEF21A9B109ED8 /* Pods-LithoModels_Tests.debug.xcconfig */,
+				A4D4F2D783094F9EF4F2580C4DC3EEA0 /* Pods-LithoModels_Tests.release.xcconfig */,
+			);
+			name = "Pods-LithoModels_Tests";
+			path = "Target Support Files/Pods-LithoModels_Tests";
+			sourceTree = "<group>";
+		};
+		9D5D83179B8912AF77C517BA21964488 /* FBSnapshotTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				0D02DD2B9671C4C9A0756AFE33E0588C /* Core */,
+				BAB8AACC5186CA5C77D4B2D598FAE0A9 /* Support Files */,
+				F901434CFC22FCBE494D7B6278398CC6 /* SwiftSupport */,
+			);
+			name = FBSnapshotTestCase;
+			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		9EE58C9D25484837560AC5122DAF5F73 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9D5D83179B8912AF77C517BA21964488 /* FBSnapshotTestCase */,
+				5BD3D3F4E63EF201B338BC9407DEADCC /* Slippers */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ABFDF5E6C425C104497701EF61C9E284 /* Pods-LithoModels_Example */ = {
+			isa = PBXGroup;
+			children = (
+				9B3A59DA23633E3E165D2CBA2C2EEDDE /* Pods-LithoModels_Example.modulemap */,
+				20B9E1BB44C1E385E50DCEAC3D4EA9FD /* Pods-LithoModels_Example-acknowledgements.markdown */,
+				7A21D1C26042CCC22697358A2B4BAD4D /* Pods-LithoModels_Example-acknowledgements.plist */,
+				6071CA0808B09896799A2304730F2C7F /* Pods-LithoModels_Example-dummy.m */,
+				EA50678774B7C34B59F8D01874265C03 /* Pods-LithoModels_Example-frameworks.sh */,
+				F9647E28EE593251CAA6999B3DF45A15 /* Pods-LithoModels_Example-Info.plist */,
+				EFFEE786DC68C7CE5A0070FA4EA3E9D1 /* Pods-LithoModels_Example-umbrella.h */,
+				A10BF540D22090B48A86659E37496C20 /* Pods-LithoModels_Example.debug.xcconfig */,
+				EE23F0E657919E67DE2E37D2CA779C52 /* Pods-LithoModels_Example.release.xcconfig */,
+			);
+			name = "Pods-LithoModels_Example";
+			path = "Target Support Files/Pods-LithoModels_Example";
+			sourceTree = "<group>";
+		};
+		BAB8AACC5186CA5C77D4B2D598FAE0A9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				337520DF99036CE4B66D6B3FD58DC0E5 /* FBSnapshotTestCase.modulemap */,
+				A5437C192F18B02E6D12419A2C3A496C /* FBSnapshotTestCase-dummy.m */,
+				03A96D0F53C21F558E760A965BD14975 /* FBSnapshotTestCase-Info.plist */,
+				348AA277B4DDCC1F0987B90E15C5EE40 /* FBSnapshotTestCase-prefix.pch */,
+				5E194C96E560E4CD61F93AF0B5E8B69E /* FBSnapshotTestCase-umbrella.h */,
+				65D2E4D2E0189B000F029F523DF2D9DF /* FBSnapshotTestCase.debug.xcconfig */,
+				219D65A40CDBE7D85B1E0E8B36D9D0BD /* FBSnapshotTestCase.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FBSnapshotTestCase";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				36A4445956B4079CA4AB2C98A3E60610 /* Development Pods */,
+				3FA7163CABE0D1C982F86A5193EB2BC1 /* Frameworks */,
+				9EE58C9D25484837560AC5122DAF5F73 /* Pods */,
+				1EDCEFB2B1FE45C2E264A634069F818A /* Products */,
+				F47B867DA05FD3F2FC788D8BC949BEF3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		F47B867DA05FD3F2FC788D8BC949BEF3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABFDF5E6C425C104497701EF61C9E284 /* Pods-LithoModels_Example */,
+				8F595FE3A05169BB667674EF62F8DD0C /* Pods-LithoModels_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F58B826D4B55209F33A4C655251DBBFD /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				42AAD8576165155190A189119EC42583 /* Foundation.framework */,
+				EEEE3D38C6B08767113733C832D8A218 /* QuartzCore.framework */,
+				68920FAACFB0EE1AE4C020EB2CACB947 /* UIKit.framework */,
+				0B41EEE46701F21BF7032A8AE46ED1DC /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F877058CE88CE7F0791E9FE4EF2D80E2 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				541A64971991D2B40BE649F5B27FAB5E /* LICENSE */,
+				8290D0B47F6FED55B6A49E7734FD3B72 /* LithoModels.podspec */,
+				B9C3C85C18A197EF76EA261D63B5357B /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		F901434CFC22FCBE494D7B6278398CC6 /* SwiftSupport */ = {
+			isa = PBXGroup;
+			children = (
+				350266C17BDB64003859043795463AD3 /* SwiftSupport.swift */,
+			);
+			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		FCDBB9C0B3D7BFD0B522CED32011F45E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				19CAD8E97CEA45E92D31F3D8BDB10635 /* Slippers.modulemap */,
+				14FB52A356B95F172FFCB7458E3060CB /* Slippers-dummy.m */,
+				EBF3FA103C4C4BC804C5A7197E1BFA3A /* Slippers-Info.plist */,
+				CA53AE499F1DBB59431287A8445616E3 /* Slippers-prefix.pch */,
+				8954664E84626239590827713389B6EC /* Slippers-umbrella.h */,
+				D1FD947D5ABC757C12A999DCA0FBAFF1 /* Slippers.debug.xcconfig */,
+				9F205C9A1C3E7D65B76B849D95479AB7 /* Slippers.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Slippers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		24A9753938DF2BDBFB57013568C24F24 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				928F53A7CA97998AA2F93A27800E4E1B /* Pods-LithoModels_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		384DE8A8021C5DA5E256BCFEC3D478A9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */,
+				00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */,
+				C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */,
+				90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */,
+				40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */,
+				F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */,
+				D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */,
+				B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B3E4305B8069B038EFF391CDC30C59F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B309A30F23328F8FCD2F140BD388921 /* Slippers-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B118C1CDF4870EF021CB871422138991 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33536E8166EF4D0370E9C9A00DB00649 /* LithoModels-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0E2E5380FF69F379B31CFB6259E2D5C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7002813273EC1690F73D20E984FC4162 /* Pods-LithoModels_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		28A2CCC2E0011DB59E0418F82E5CFEAF /* Pods-LithoModels_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDD0AC03A8F346F7D120824D6BAD796E /* Build configuration list for PBXNativeTarget "Pods-LithoModels_Tests" */;
+			buildPhases = (
+				F0E2E5380FF69F379B31CFB6259E2D5C /* Headers */,
+				0437615926BD6AC7A75E8DC01E9A7242 /* Sources */,
+				C95F6EDC7933D69A6E6083D10124D07B /* Frameworks */,
+				12A3BB6AEDF7EBA834446D1B29C3F75A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2BE4178B2968EDE932027C419BD3855 /* PBXTargetDependency */,
+				C882603B36990105AB3B44CDCB59E9AD /* PBXTargetDependency */,
+			);
+			name = "Pods-LithoModels_Tests";
+			productName = "Pods-LithoModels_Tests";
+			productReference = C990880BD637FA8C7382E41A5B769757 /* Pods_LithoModels_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A38070E189561F257BBD5A0A55CACCCF /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
+			buildPhases = (
+				384DE8A8021C5DA5E256BCFEC3D478A9 /* Headers */,
+				A48201AC594B2E6B09C0EE0396BC1377 /* Sources */,
+				E581515110D66F94F80A6937831489A1 /* Frameworks */,
+				5CC655F1A6C7A45A9693160581076BAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBSnapshotTestCase;
+			productName = FBSnapshotTestCase;
+			productReference = 5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D7BE6B8CAECA6BD8A4FE578AAC96D07F /* Slippers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4362016EF6DBCFDFE8C5C3867EB98E14 /* Build configuration list for PBXNativeTarget "Slippers" */;
+			buildPhases = (
+				5B3E4305B8069B038EFF391CDC30C59F /* Headers */,
+				56914371E1736B48E3B5612A7ED11B01 /* Sources */,
+				4DAE4F9D9ECF03832318C8561C2F76B8 /* Frameworks */,
+				B061517032A3ED215E9C281DBA6F4F37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Slippers;
+			productName = Slippers;
+			productReference = FFF9A5004A0ACB34E97B9E729B3C8BC4 /* Slippers.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DBBB090BD70BCAD0ABE10F38EA1633F6 /* Pods-LithoModels_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DFE2B2DFFDC39DC10F1FFC5326965DB /* Build configuration list for PBXNativeTarget "Pods-LithoModels_Example" */;
+			buildPhases = (
+				24A9753938DF2BDBFB57013568C24F24 /* Headers */,
+				082CA7EF581070C5BD573A713659AA43 /* Sources */,
+				E85467F97321F71293C2B00106BC364B /* Frameworks */,
+				6DB14387F3CBAA605F685788B0225D41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4458415F3EC0E9DCC674906FFDD8DBE0 /* PBXTargetDependency */,
+				B77934271838861C1A2337879DAEA8DF /* PBXTargetDependency */,
+			);
+			name = "Pods-LithoModels_Example";
+			productName = "Pods-LithoModels_Example";
+			productReference = BCA06A6101E21D21995DA17D7BE0ECEA /* Pods_LithoModels_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F6BDE1C40FB885CC565DF9417623C2BE /* LithoModels */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26D0AA9A21A3B42DB0A8B5FD52F4319E /* Build configuration list for PBXNativeTarget "LithoModels" */;
+			buildPhases = (
+				B118C1CDF4870EF021CB871422138991 /* Headers */,
+				78C5EE39F1D91F0B9D576A6DD2A467B6 /* Sources */,
+				805EEE52600BD9871FD494596F18B8F3 /* Frameworks */,
+				A6B929A2ADF854A56F7F6B3624830783 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				983FC0A16056A743A3CCBC2F73CC7E74 /* PBXTargetDependency */,
+			);
+			name = LithoModels;
+			productName = LithoModels;
+			productReference = 619E9E286D7E1C2F3AD3304B632337C8 /* LithoModels.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 1EDCEFB2B1FE45C2E264A634069F818A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */,
+				F6BDE1C40FB885CC565DF9417623C2BE /* LithoModels */,
+				DBBB090BD70BCAD0ABE10F38EA1633F6 /* Pods-LithoModels_Example */,
+				28A2CCC2E0011DB59E0418F82E5CFEAF /* Pods-LithoModels_Tests */,
+				D7BE6B8CAECA6BD8A4FE578AAC96D07F /* Slippers */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12A3BB6AEDF7EBA834446D1B29C3F75A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CC655F1A6C7A45A9693160581076BAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DB14387F3CBAA605F685788B0225D41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6B929A2ADF854A56F7F6B3624830783 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B061517032A3ED215E9C281DBA6F4F37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0437615926BD6AC7A75E8DC01E9A7242 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D334FA03E430A6399F303F0BDEB384F /* Pods-LithoModels_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		082CA7EF581070C5BD573A713659AA43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2703C7426F73AEC278A46618AB855C6 /* Pods-LithoModels_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56914371E1736B48E3B5612A7ED11B01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				869055881AAC57F76749CF6FE8DCA5E2 /* Array+Paging.swift in Sources */,
+				1EAE000669F047920EF6D2B4327BE75E /* Id.swift in Sources */,
+				83F20753F0750A1680E117C8DCC06DD0 /* JsonProvider.swift in Sources */,
+				45D95CDB63D4AAA3CC1001AF7B164915 /* Pageable.swift in Sources */,
+				4986F29B8DE50A00E21FCE946C7045FD /* Refreshable.swift in Sources */,
+				333DA89CE7C0CAB368A867F364E451BB /* Slippers-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78C5EE39F1D91F0B9D576A6DD2A467B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7863C53DABCEBBE3C47134968D45B02C /* Avatar.swift in Sources */,
+				51B0FDBC6321FE189A8B4A328F51FC88 /* Contact.swift in Sources */,
+				40B5B9E9D13B0B3EB3CB146CADD0D181 /* Device.swift in Sources */,
+				0F0AC0C03C88EBED2C90387F0AC8DDF5 /* Invitation.swift in Sources */,
+				83860E4F85D1836A9989A7A182681A90 /* LithoModels-dummy.m in Sources */,
+				3E67DA4A167AFFAF28B6E3A4E0A092B2 /* PasswordReset.swift in Sources */,
+				C7D2E11FB0A42FF4E83924E8619A54C9 /* User.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A48201AC594B2E6B09C0EE0396BC1377 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */,
+				8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */,
+				E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */,
+				88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */,
+				9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */,
+				11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */,
+				2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */,
+				14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */,
+				A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4458415F3EC0E9DCC674906FFDD8DBE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LithoModels;
+			target = F6BDE1C40FB885CC565DF9417623C2BE /* LithoModels */;
+			targetProxy = 8831F2904E510290CE74EFE22F41E3A8 /* PBXContainerItemProxy */;
+		};
+		983FC0A16056A743A3CCBC2F73CC7E74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Slippers;
+			target = D7BE6B8CAECA6BD8A4FE578AAC96D07F /* Slippers */;
+			targetProxy = 56B6C0938CDA10A5B40D1CE8160F89A0 /* PBXContainerItemProxy */;
+		};
+		B77934271838861C1A2337879DAEA8DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Slippers;
+			target = D7BE6B8CAECA6BD8A4FE578AAC96D07F /* Slippers */;
+			targetProxy = 0B676DFB4D7375D7F6F200D200432700 /* PBXContainerItemProxy */;
+		};
+		C882603B36990105AB3B44CDCB59E9AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LithoModels_Example";
+			target = DBBB090BD70BCAD0ABE10F38EA1633F6 /* Pods-LithoModels_Example */;
+			targetProxy = C8FE8A94F41CA8BF86D357B77D7EBB40 /* PBXContainerItemProxy */;
+		};
+		D2BE4178B2968EDE932027C419BD3855 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBSnapshotTestCase;
+			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
+			targetProxy = 23FDB667EE97E1340743A1193C4D5579 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02FA4AF9C1FB6B50E18DB90F6D8790B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4D4F2D783094F9EF4F2580C4DC3EEA0 /* Pods-LithoModels_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LithoModels_Tests/Pods-LithoModels_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LithoModels_Tests/Pods-LithoModels_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		132862E22EB75B7F6246CD5DAF582A4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A10BF540D22090B48A86659E37496C20 /* Pods-LithoModels_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LithoModels_Example/Pods-LithoModels_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LithoModels_Example/Pods-LithoModels_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		45607B9190B3F4D52D04756594A7F030 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE8C92E44F6137DDD0EEF21A9B109ED8 /* Pods-LithoModels_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LithoModels_Tests/Pods-LithoModels_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LithoModels_Tests/Pods-LithoModels_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4F2EDC446D596382C603BC0D5C00788C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65D2E4D2E0189B000F029F523DF2D9DF /* FBSnapshotTestCase.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5832EB9C1CC02C00B6A198C7BC65A515 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EF1B7B33B93D09F429898D42966A86F /* LithoModels.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LithoModels/LithoModels-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LithoModels/LithoModels-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LithoModels/LithoModels.modulemap";
+				PRODUCT_MODULE_NAME = LithoModels;
+				PRODUCT_NAME = LithoModels;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5CF17FDA01B55FA7ACD51D08F1728338 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1FD947D5ABC757C12A999DCA0FBAFF1 /* Slippers.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Slippers/Slippers-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Slippers/Slippers-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Slippers/Slippers.modulemap";
+				PRODUCT_MODULE_NAME = Slippers;
+				PRODUCT_NAME = Slippers;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		66D80E522224B0BD26D25C916F539786 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F205C9A1C3E7D65B76B849D95479AB7 /* Slippers.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Slippers/Slippers-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Slippers/Slippers-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Slippers/Slippers.modulemap";
+				PRODUCT_MODULE_NAME = Slippers;
+				PRODUCT_NAME = Slippers;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		903A0004D3E6651EFD5D2E16214D101B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9D05F0E286149A7B19CF1AD2D611651E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE23F0E657919E67DE2E37D2CA779C52 /* Pods-LithoModels_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LithoModels_Example/Pods-LithoModels_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LithoModels_Example/Pods-LithoModels_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D4205A4ADADF2F5456CB5CC65218B09E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 219D65A40CDBE7D85B1E0E8B36D9D0BD /* FBSnapshotTestCase.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EC8D2989F0446CE0BE8CC092C19F301F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A8F788463B4D52707532B87C0B322E8 /* LithoModels.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LithoModels/LithoModels-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LithoModels/LithoModels-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LithoModels/LithoModels.modulemap";
+				PRODUCT_MODULE_NAME = LithoModels;
+				PRODUCT_NAME = LithoModels;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26D0AA9A21A3B42DB0A8B5FD52F4319E /* Build configuration list for PBXNativeTarget "LithoModels" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC8D2989F0446CE0BE8CC092C19F301F /* Debug */,
+				5832EB9C1CC02C00B6A198C7BC65A515 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4362016EF6DBCFDFE8C5C3867EB98E14 /* Build configuration list for PBXNativeTarget "Slippers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CF17FDA01B55FA7ACD51D08F1728338 /* Debug */,
+				66D80E522224B0BD26D25C916F539786 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */,
+				903A0004D3E6651EFD5D2E16214D101B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DFE2B2DFFDC39DC10F1FFC5326965DB /* Build configuration list for PBXNativeTarget "Pods-LithoModels_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				132862E22EB75B7F6246CD5DAF582A4A /* Debug */,
+				9D05F0E286149A7B19CF1AD2D611651E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A38070E189561F257BBD5A0A55CACCCF /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F2EDC446D596382C603BC0D5C00788C /* Debug */,
+				D4205A4ADADF2F5456CB5CC65218B09E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDD0AC03A8F346F7D120824D6BAD796E /* Build configuration list for PBXNativeTarget "Pods-LithoModels_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45607B9190B3F4D52D04756594A7F030 /* Debug */,
+				02FA4AF9C1FB6B50E18DB90F6D8790B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

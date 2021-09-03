@@ -1,0 +1,31 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - LithoModels (0.1.0):
+    - Slippers
+  - Slippers (0.1.1)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase (~> 2.1.4)
+  - LithoModels (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+    - Slippers
+
+EXTERNAL SOURCES:
+  LithoModels:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  LithoModels: 3c26fe3f2ff6aa4413ac05d45860d59024d4ef3b
+  Slippers: 3814c93fd93305f918a984e724d5db4d9569a660
+
+PODFILE CHECKSUM: b78211b13640a5a2e3ab5ed390c589bbfabee4ea
+
+COCOAPODS: 1.10.1
