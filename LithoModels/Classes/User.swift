@@ -19,6 +19,7 @@ public struct UserWrapper: Codable {
 open class User: Codable {
     public var id: Id<User>?
     
+    public var username: String?
     public var email: String?
     public var phoneNumber: String?
     public var password: String?
@@ -53,5 +54,20 @@ open class User: Codable {
         self.birthday = birthday
         self.imageKey = imageKey
         self.pushProviderId = pushProviderId
+    }
+    
+    public init(email: String, password: String) {
+        self.email = email
+        self.password = password
+    }
+    
+    public init(username: String, password: String) {
+        self.username = username
+        self.password = password
+    }
+    
+    public init(phoneNumber: String, password: String) {
+        self.phoneNumber = phoneNumber
+        self.password = password
     }
 }

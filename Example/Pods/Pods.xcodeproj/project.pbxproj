@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D7F1F2F713F714CE06A0D85D68E6CE8 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0F0AC0C03C88EBED2C90387F0AC8DDF5 /* Invitation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EE1E9B3304ACB53A00029DC275B063 /* Invitation.swift */; };
+		0F0AC0C03C88EBED2C90387F0AC8DDF5 /* Invitations.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EE1E9B3304ACB53A00029DC275B063 /* Invitations.swift */; };
 		0F45AB2077D8E60AD5AA1E1A09BB1663 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42AAD8576165155190A189119EC42583 /* Foundation.framework */; };
 		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = A74F74783CAF2B4581BA4AC663F7FA0B /* UIApplication+StrictKeyWindow.m */; };
 		121439AB6B4061E1B6222256817548FA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B41EEE46701F21BF7032A8AE46ED1DC /* XCTest.framework */; };
@@ -114,15 +114,15 @@
 		372C895A759A8DC14707FA7DD642AC4E /* Id.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Id.swift; path = Slippers/Classes/Id.swift; sourceTree = "<group>"; };
 		42AAD8576165155190A189119EC42583 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		509A7B84B9725D168AEB17EEE224EF18 /* Pods-LithoModels_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LithoModels_Tests-Info.plist"; sourceTree = "<group>"; };
-		541A64971991D2B40BE649F5B27FAB5E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		541A64971991D2B40BE649F5B27FAB5E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		55F472C746111E35CC9069452C4C87AD /* PasswordReset.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PasswordReset.swift; path = LithoModels/Classes/PasswordReset.swift; sourceTree = "<group>"; };
 		5A346DED024D586EEA253B61FFE1BFAA /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
 		5A8F788463B4D52707532B87C0B322E8 /* LithoModels.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LithoModels.debug.xcconfig; sourceTree = "<group>"; };
-		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DED5C390373A9F3DF28DB97301B0C9D /* Pods-LithoModels_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LithoModels_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		5E194C96E560E4CD61F93AF0B5E8B69E /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
 		6071CA0808B09896799A2304730F2C7F /* Pods-LithoModels_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LithoModels_Example-dummy.m"; sourceTree = "<group>"; };
-		619E9E286D7E1C2F3AD3304B632337C8 /* LithoModels.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LithoModels.framework; path = LithoModels.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		619E9E286D7E1C2F3AD3304B632337C8 /* LithoModels.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LithoModels.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		62239F86028CB1D1BDD82B5A68373D34 /* Pods-LithoModels_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LithoModels_Tests.modulemap"; sourceTree = "<group>"; };
 		639D4AE74A01729AB11707139B8D3667 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
 		63B41FE57841E5DB7EE80DCA0E08FEDC /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
@@ -132,7 +132,7 @@
 		7A21D1C26042CCC22697358A2B4BAD4D /* Pods-LithoModels_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LithoModels_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		7A3C2D980B5B3D684DC5312FCC5A1CC0 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
 		7EF1B7B33B93D09F429898D42966A86F /* LithoModels.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LithoModels.release.xcconfig; sourceTree = "<group>"; };
-		8290D0B47F6FED55B6A49E7734FD3B72 /* LithoModels.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LithoModels.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8290D0B47F6FED55B6A49E7734FD3B72 /* LithoModels.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = LithoModels.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		82B816317F278DFF74B212902584F907 /* Contact.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Contact.swift; path = LithoModels/Classes/Contact.swift; sourceTree = "<group>"; };
 		887B4BFC4A2DB638D457BC056319FD7B /* Pods-LithoModels_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LithoModels_Tests-dummy.m"; sourceTree = "<group>"; };
 		8954664E84626239590827713389B6EC /* Slippers-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Slippers-umbrella.h"; sourceTree = "<group>"; };
@@ -142,19 +142,19 @@
 		943B0B00385CEA1531431DE6E3905E04 /* Slippers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Slippers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		959EE63DE8C5FF0A1AE8F6D6BCCC566E /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
 		9B3A59DA23633E3E165D2CBA2C2EEDDE /* Pods-LithoModels_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LithoModels_Example.modulemap"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F205C9A1C3E7D65B76B849D95479AB7 /* Slippers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Slippers.release.xcconfig; sourceTree = "<group>"; };
 		A10BF540D22090B48A86659E37496C20 /* Pods-LithoModels_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LithoModels_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A175ABDCA81F73F07316ABA018870DF1 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
 		A4D4F2D783094F9EF4F2580C4DC3EEA0 /* Pods-LithoModels_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LithoModels_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A5437C192F18B02E6D12419A2C3A496C /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
 		A74F74783CAF2B4581BA4AC663F7FA0B /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
-		B9C3C85C18A197EF76EA261D63B5357B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		BCA06A6101E21D21995DA17D7BE0ECEA /* Pods_LithoModels_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LithoModels_Example.framework; path = "Pods-LithoModels_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9C3C85C18A197EF76EA261D63B5357B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BCA06A6101E21D21995DA17D7BE0ECEA /* Pods_LithoModels_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LithoModels_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE8D6C6655650B37193698ACCC6670EF /* LithoModels-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LithoModels-prefix.pch"; sourceTree = "<group>"; };
 		C45F44E37726428AAC664376D6893720 /* Array+Paging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+Paging.swift"; path = "Slippers/Classes/Array+Paging.swift"; sourceTree = "<group>"; };
 		C4E2FBC2CEEC8BA3AE74D6CF1B84D16F /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
-		C990880BD637FA8C7382E41A5B769757 /* Pods_LithoModels_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LithoModels_Tests.framework; path = "Pods-LithoModels_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C990880BD637FA8C7382E41A5B769757 /* Pods_LithoModels_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LithoModels_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA28B7F27410E7CD5769A4870F4A955E /* JsonProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JsonProvider.swift; path = Slippers/Classes/JsonProvider.swift; sourceTree = "<group>"; };
 		CA53AE499F1DBB59431287A8445616E3 /* Slippers-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Slippers-prefix.pch"; sourceTree = "<group>"; };
 		D0185768856427BE279864D0E7AE36AD /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
@@ -167,11 +167,11 @@
 		EE8C92E44F6137DDD0EEF21A9B109ED8 /* Pods-LithoModels_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LithoModels_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		EEEE3D38C6B08767113733C832D8A218 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		EFFEE786DC68C7CE5A0070FA4EA3E9D1 /* Pods-LithoModels_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LithoModels_Example-umbrella.h"; sourceTree = "<group>"; };
-		F3EE1E9B3304ACB53A00029DC275B063 /* Invitation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Invitation.swift; path = LithoModels/Classes/Invitation.swift; sourceTree = "<group>"; };
+		F3EE1E9B3304ACB53A00029DC275B063 /* Invitations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Invitations.swift; path = LithoModels/Classes/Invitations.swift; sourceTree = "<group>"; };
 		F7D8BCAEDA837B9D76180905A793F698 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
 		F9647E28EE593251CAA6999B3DF45A15 /* Pods-LithoModels_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LithoModels_Example-Info.plist"; sourceTree = "<group>"; };
 		FAD0C3BA1133722906C6B68B3D74D0D2 /* Refreshable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Refreshable.swift; path = Slippers/Classes/Refreshable.swift; sourceTree = "<group>"; };
-		FFF9A5004A0ACB34E97B9E729B3C8BC4 /* Slippers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Slippers.framework; path = Slippers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFF9A5004A0ACB34E97B9E729B3C8BC4 /* Slippers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Slippers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -282,7 +282,6 @@
 				FAD0C3BA1133722906C6B68B3D74D0D2 /* Refreshable.swift */,
 				FCDBB9C0B3D7BFD0B522CED32011F45E /* Support Files */,
 			);
-			name = Slippers;
 			path = Slippers;
 			sourceTree = "<group>";
 		};
@@ -292,7 +291,7 @@
 				25295DAEAE5C0FAFBEABE21C3691F191 /* Avatar.swift */,
 				82B816317F278DFF74B212902584F907 /* Contact.swift */,
 				8BABA3EB7E7EA73E54615F7859BE8891 /* Device.swift */,
-				F3EE1E9B3304ACB53A00029DC275B063 /* Invitation.swift */,
+				F3EE1E9B3304ACB53A00029DC275B063 /* Invitations.swift */,
 				55F472C746111E35CC9069452C4C87AD /* PasswordReset.swift */,
 				D9A30355E2E3D2E0DC91FFA9E598EBAF /* User.swift */,
 				F877058CE88CE7F0791E9FE4EF2D80E2 /* Pod */,
@@ -341,7 +340,6 @@
 				BAB8AACC5186CA5C77D4B2D598FAE0A9 /* Support Files */,
 				F901434CFC22FCBE494D7B6278398CC6 /* SwiftSupport */,
 			);
-			name = FBSnapshotTestCase;
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
@@ -705,7 +703,7 @@
 				7863C53DABCEBBE3C47134968D45B02C /* Avatar.swift in Sources */,
 				51B0FDBC6321FE189A8B4A328F51FC88 /* Contact.swift in Sources */,
 				40B5B9E9D13B0B3EB3CB146CADD0D181 /* Device.swift in Sources */,
-				0F0AC0C03C88EBED2C90387F0AC8DDF5 /* Invitation.swift in Sources */,
+				0F0AC0C03C88EBED2C90387F0AC8DDF5 /* Invitations.swift in Sources */,
 				83860E4F85D1836A9989A7A182681A90 /* LithoModels-dummy.m in Sources */,
 				3E67DA4A167AFFAF28B6E3A4E0A092B2 /* PasswordReset.swift in Sources */,
 				C7D2E11FB0A42FF4E83924E8619A54C9 /* User.swift in Sources */,
@@ -1051,8 +1049,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

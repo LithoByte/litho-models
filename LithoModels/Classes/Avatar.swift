@@ -15,4 +15,3 @@ public struct Avatar: Codable {
 public struct AvatarWrapper: Codable {
     var avatar: Avatar?
 }
-
