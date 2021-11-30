@@ -7,19 +7,15 @@
 
 import Foundation
 
-public protocol Ided {
-    var id: Id<Self> { get }
-}
-
 public struct Id<Type>: Codable, Hashable, RawRepresentable {
-    public let rawValue: Int
+    public let rawValue: String
     
-    public init(rawValue: Int) {
+    public init(rawValue: String) {
         self.rawValue = rawValue
     }
 
     public init(from decoder: Decoder) throws {
-        rawValue = try Int(from: decoder)
+        rawValue = try String(from: decoder)
     }
 
     public func encode(to encoder: Encoder) throws {
@@ -41,15 +37,17 @@ extension Id: Comparable {
 
 extension Id: Equatable {}
 
-extension Id: ExpressibleByIntegerLiteral {
-  public init(integerLiteral: IntegerLiteralType) {
-    self.init(rawValue: RawValue(integerLiteral: integerLiteral))
-  }
+extension Id: ExpressibleByStringLiteral {
+    public typealias StringLiteralType = String
+    
+    public init(stringLiteral value: String) {
+        self.init(rawValue: value)
+    }
 }
 
 @available(iOS 13, *)
 extension Id: Identifiable {
-    public var id: Int {
+    public var id: String {
         return rawValue
     }
 }

@@ -32,11 +32,22 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'LithoModels/Classes/**/*'
   
+  s.default_subspecs = 'IntId'
+  
+  s.subspec 'IntId' do |sp|
+    sp.source_files = 'LithoModels/Classes/**/*.swift'
+    sp.dependency 'Slippers/IntId'
+  end
+
+  s.subspec "StringId" do |sp|
+    sp.source_files = 'LithoModels/Classes/**/*.swift'
+    sp.dependency 'Slippers/StringId'
+  end
+  
   # s.resource_bundles = {
   #   'LithoModels' => ['LithoModels/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'Slippers'
 end

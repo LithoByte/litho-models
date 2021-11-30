@@ -4,28 +4,37 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - LithoModels (0.1.0):
-    - Slippers
-  - Slippers (0.1.1)
+  - LithoModels/StringId (0.1.0):
+    - Slippers/StringId
+  - Slippers/Core (0.1.1)
+  - Slippers/StringId (0.1.1):
+    - Slippers/Core
 
 DEPENDENCIES:
   - FBSnapshotTestCase (~> 2.1.4)
-  - LithoModels (from `../`)
+  - LithoModels/StringId (from `../`)
+  - Slippers/StringId (from `https://github.com/LithoByte/slippers`)
 
 SPEC REPOS:
   trunk:
     - FBSnapshotTestCase
-    - Slippers
 
 EXTERNAL SOURCES:
   LithoModels:
     :path: "../"
+  Slippers:
+    :git: https://github.com/LithoByte/slippers
+
+CHECKOUT OPTIONS:
+  Slippers:
+    :commit: 673221de7fd877d808b83e6415544be4824a746e
+    :git: https://github.com/LithoByte/slippers
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  LithoModels: 3c26fe3f2ff6aa4413ac05d45860d59024d4ef3b
-  Slippers: 3814c93fd93305f918a984e724d5db4d9569a660
+  LithoModels: ba02e26b0d18fa472c579f96cb6f89e4ee2a530b
+  Slippers: 5a3c6f24a556a59a091e2cb60e588472827be87c
 
-PODFILE CHECKSUM: b78211b13640a5a2e3ab5ed390c589bbfabee4ea
+PODFILE CHECKSUM: af87c4b727801c01ccb14a70907b5983ca3a38db
 
-COCOAPODS: 1.10.1
+COCOAPODS: 1.11.2
