@@ -9,19 +9,36 @@
     "file": "LICENSE"
   },
   "authors": {
-    "Elliot": "elliot.schrock@gmail.com"
+    "Elliot": ""
   },
   "source": {
     "git": "https://github.com/Elliot/LithoModels.git",
     "tag": "0.1.0"
   },
+  "social_media_url": "https://twitter.com/elliot_schrock",
   "platforms": {
     "ios": "11.0"
   },
   "source_files": "LithoModels/Classes/**/*",
-  "dependencies": {
-    "Slippers": [
+  "default_subspecs": "IntId",
+  "subspecs": [
+    {
+      "name": "IntId",
+      "source_files": "LithoModels/Classes/**/*.swift",
+      "dependencies": {
+        "Slippers/IntId": [
 
-    ]
-  }
+        ]
+      }
+    },
+    {
+      "name": "StringId",
+      "source_files": "LithoModels/Classes/**/*.swift",
+      "dependencies": {
+        "Slippers/StringId": [
+
+        ]
+      }
+    }
+  ]
 }

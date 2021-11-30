@@ -3,7 +3,8 @@ use_frameworks!
 platform :ios, '11.0'
 
 target 'LithoModels_Example' do
-  pod 'LithoModels', :path => '../'
+  pod 'Slippers/StringId', git: 'https://github.com/LithoByte/slippers'
+  pod 'LithoModels/StringId', :path => '../'
 
   target 'LithoModels_Tests' do
     inherit! :search_paths
