@@ -8,7 +8,20 @@
 import Foundation
 import Slippers
 
-public struct ContactsWrapper: Codable { public var contacts: [Contact]? }
+public struct ContactsWrapper: Codable {
+    public var contacts: [Contact]?
+    
+    public init(contacts: [Contact]?) {
+        self.contacts = contacts
+    }
+}
+public struct ContactWrapper: Codable {
+    public var contact: Contact?
+    
+    public init(contact: Contact) {
+        self.contact = contact
+    }
+}
 
 open class Contact: Codable {
     public var id: Id<Contact>?
@@ -16,6 +29,8 @@ open class Contact: Codable {
     public var phoneNumber: String?
     public var firstName: String?
     public var lastName: String?
+    public var givenName: String?
+    public var familyName: String?
     public var imageKey: String?
     public var thumbnailUrl: String?
     public var contacteeId: Id<User>?
@@ -28,6 +43,8 @@ open class Contact: Codable {
         phoneNumber: String? = nil,
         firstName: String? = nil,
         lastName: String? = nil,
+        givenName: String? = nil,
+        familyName: String? = nil,
         imageKey: String? = nil,
         thumbnailUrl: String? = nil,
         contacteeId: Id<User>? = nil,
@@ -39,6 +56,8 @@ open class Contact: Codable {
         self.phoneNumber = phoneNumber
         self.firstName = firstName
         self.lastName = lastName
+        self.givenName = givenName
+        self.familyName = familyName
         self.imageKey = imageKey
         self.thumbnailUrl = thumbnailUrl
         self.contacteeId = contacteeId

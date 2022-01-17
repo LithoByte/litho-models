@@ -16,6 +16,14 @@ public struct UserWrapper: Codable {
     }
 }
 
+public struct UsersWrapper: Codable {
+    public var users: [User]?
+    
+    public init(users: [User]?) {
+        self.users = users
+    }
+}
+
 open class User: Codable {
     public var id: Id<User>?
     
@@ -23,10 +31,19 @@ open class User: Codable {
     public var email: String?
     public var phoneNumber: String?
     public var password: String?
+    
     public var apiKey: String?
+    public var accessKey: String?
+    public var accessToken: String?
+    public var apiToken: String?
+    public var authToken: String?
+    public var authKey: String?
+    public var jwt: String?
     
     public var firstName: String?
     public var lastName: String?
+    public var givenName: String?
+    public var familyName: String?
     public var birthday: Date?
     
     public var imageKey: String?
@@ -40,6 +57,8 @@ open class User: Codable {
         apiKey: String? = nil,
         firstName: String? = nil,
         lastName: String? = nil,
+        givenName: String? = nil,
+        familyName: String? = nil,
         birthday: Date? = nil,
         imageKey: String? = nil,
         pushProviderId: String? = nil
@@ -51,6 +70,8 @@ open class User: Codable {
         self.apiKey = apiKey
         self.firstName = firstName
         self.lastName = lastName
+        self.givenName = givenName
+        self.familyName = familyName
         self.birthday = birthday
         self.imageKey = imageKey
         self.pushProviderId = pushProviderId
