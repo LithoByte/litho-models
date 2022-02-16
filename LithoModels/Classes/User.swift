@@ -34,7 +34,7 @@ open class User: Codable {
     
     public init(
         id: Id<User>? = nil,
-        username: String,
+        username: String? = nil,
         email: String? = nil,
         phoneNumber: String? = nil,
         password: String? = nil,
