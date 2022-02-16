@@ -34,6 +34,7 @@ open class User: Codable {
     
     public init(
         id: Id<User>? = nil,
+        username: String,
         email: String? = nil,
         phoneNumber: String? = nil,
         password: String? = nil,
@@ -45,6 +46,7 @@ open class User: Codable {
         pushProviderId: String? = nil
     ) {
         self.id = id
+        self.username = username
         self.email = email
         self.phoneNumber = phoneNumber
         self.password = password
